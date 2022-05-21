@@ -1,24 +1,9 @@
-# test-vue
+# test
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
+## Project setup on local pc
 ```
 yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+version of node: v16.13.2
 
-### Lints and fixes files
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
