@@ -44,12 +44,12 @@
         <Button v-if="errors.length"
                 :disabled="true"
                 type="submit"
-                value="Добавить товар"
+                text="Добавить товар"
                 @click="addItem"
         />
         <Button v-else
                 :disabled="!!errors.length"
-                value="Добавить товар"
+                text="Добавить товар"
                 @click="addItem"
         />
       </form>

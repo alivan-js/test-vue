@@ -2,10 +2,10 @@
   <div class="modal-backdrop">
     <div class="modal">
       <div class="modal__header">
-        Добавляется новый товар
+        {{message}}
       </div>
       <div class="modal__body">
-        <Button @click="closeItem" value="OK"/>
+        <Button @click="closeItem" :text="buttonValue"/>
       </div>
     </div>
   </div>
@@ -19,6 +19,10 @@ export default {
   name: 'app-modal',
   components: {
     Button
+  },
+  props: {
+    message: String,
+    buttonValue: String,
   },
   methods: {
     closeItem() {

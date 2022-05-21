@@ -9,7 +9,7 @@
                 @deleteItem="deleteItem"/>
     </main>
   </div>
-  <Modal v-if="modalOpen" @close="closeModal"/>
+  <Modal v-if="modalOpen" @close="closeModal" message="Добавляется новый товар" buttonValue="ОК"/>
 </template>
 
 <script>

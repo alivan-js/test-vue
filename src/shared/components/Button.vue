@@ -1,5 +1,5 @@
 <template>
-  <button :disabled="disabled" :class="{ disabled: disabled === true }">{{ value }}</button>
+  <button :disabled="disabled" :class="{ disabled: disabled === true }">{{ text }}</button>
 </template>
 
 <script>
@@ -8,7 +8,7 @@ export default  {
   name: 'app-button',
   components: {},
   props: {
-    value: String,
+    text: String,
     disabled: Boolean
   },
 }
